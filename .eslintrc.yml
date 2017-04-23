@@ -1,0 +1,10 @@
+---
+extends: airbnb
+settings:
+  import/resolver: webpack
+env:
+  browser: true
+rules:
+  quotes:
+  - error
+  - backtick

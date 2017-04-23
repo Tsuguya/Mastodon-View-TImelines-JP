@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@import "semantic-ui-css/components/reset.css";
+@import "semantic-ui-css/components/dropdown.css";
+@import "semantic-ui-css/components/transition.css";
+@import "semantic-ui-css/components/card.css";
+
+html,body {
+  font-size: 12px;
+}
+
+img.emoji {
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .05em 0 .1em !important;
+  vertical-align: -0.1em !important;
+}
+
+header {
+  margin: 0 0 10px;
+  padding: 1em;
+  text-align: right;
+  background: #000;
+  [role="combobox"] {
+    float: left;
+  }
+
+  h1 {
+    margin: 0;
+    color: #fff;
+  }
+}
+
+#main {
+  margin: 0 10px;
+}
+
+#render > div {
+  margin: auto;
+}
+
+.ui.cards {
+  margin: 0;
+  &~.ui.cards {
+    margin-top: 0;
+  }
+  .image {
+    overflow: hidden;
+    max-height: 200px;
+    margin: 0 10px;
+
+    button {
+      padding: 0;
+      border: none;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  .ui.card {
+    width: 250px;
+
+    .content {
+      .header,.meta {
+        a {
+          text-decoration: none;
+        }
+      }
+      .header a {
+        color: #000;
+      }
+    }
+
+    .description * {
+      white-space: normal;
+      word-break: break-all;
+    }
+
+    .ui.image:not(:first-child) {
+      margin-top: 10px;
+    }
+  }
+}
+
+.invisible {
+  display: none;
+}
