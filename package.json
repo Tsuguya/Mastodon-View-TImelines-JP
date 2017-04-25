@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack --optimize-minimize",
+    "build": "NODE_ENV=production webpack",
     "watch": "NODE_ENV=development webpack-dev-server -w"
   },
   "author": "",
