@@ -10,20 +10,19 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "install": "^0.8.8",
     "moment": "^2.18.1",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-masonry-component": "^5.0.5",
     "semantic-ui-css": "^2.2.10",
-    "semantic-ui-react": "^0.68.1",
+    "semantic-ui-react": "^0.68.2",
     "twemoji": "^2.2.5",
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
+    "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.0",
@@ -46,7 +45,7 @@
     "pug-loader": "^2.3.0",
     "uglify-save-license": "^0.4.1",
     "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.2",
+    "webpack-dev-server": "^2.4.4",
     "yaml-loader": "^0.4.0"
   },
   "browserslist": [
