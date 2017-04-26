@@ -19,6 +19,11 @@ const plugins = [
     template: path.resolve(__dirname, `src/html/index.pug`),
   }),
   extractCSS,
+  new webpack.ProvidePlugin({
+    Promise: `es6-promise`,
+    fetch: `imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch`,
+    'Object.assign': `object-assign`,
+  }),
 ];
 
 if (env === `production`) {
